@@ -11,12 +11,12 @@
     </div>
   <% end %>
 
-  <div>
-    <%= form.label :title, style: "display: block" %>
+  <div style="padding: 5px; display: flex; flex-direction: row; align-items: center;">
+    <%= form.label :title, style: "padding-right:5px;" %>
     <%= form.text_field :title %>
   </div>
 
-  <div>
+  <div style="padding: 5px; display:flex;justify-content: center;">
     <%= form.submit %>
   </div>
 <% end %>
